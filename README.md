@@ -3,9 +3,8 @@ This is an Attendance Taking System which lets student and teachers to give and 
 
 
 
+<p align="center">
 <img width="250" alt="Picture 1" src="https://user-images.githubusercontent.com/66560096/134481742-206afd1b-19c2-49a4-b6e6-9b3599be383b.png">
-
-
 
 <img width="250" alt="Picture 1" src="https://user-images.githubusercontent.com/66560096/134481370-16dc7af3-3477-494c-bf08-eba63f4931d6.png">
 
@@ -27,4 +26,4 @@ This is an Attendance Taking System which lets student and teachers to give and 
 
 <img width="250" alt="Picture 10" src="https://user-images.githubusercontent.com/66560096/134482528-91b98627-4154-4fe6-a71e-7ce73fc0e2b0.png">
 
-
+</p>
