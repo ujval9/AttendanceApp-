@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "247370371905",
+    "firebase_url": "https://creativelogindesigns-77480.firebaseio.com",
+    "project_id": "creativelogindesigns-77480",
+    "storage_bucket": "creativelogindesigns-77480.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247370371905:android:c7d93b16f2f21769bb87c0",
+        "android_client_info": {
+          "package_name": "com.appsnipp.creativelogindesigns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247370371905-qqjb9sgkkslqj93bjafr62haeor8udal.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsnipp.creativelogindesigns",
+            "certificate_hash": "93699147ec3e5072cae80aa6218d1a4c8dfec889"
+          }
+        },
+        {
+          "client_id": "247370371905-cvf1fg9co2tm76crt86g90nqdm7oro2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChLJul7XWRMzgAbCCUhu4EdIarVGEq9ec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247370371905-cvf1fg9co2tm76crt86g90nqdm7oro2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

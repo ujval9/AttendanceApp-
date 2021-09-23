@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.appsnipp.creativelogindesigns.LoginActivity"
+    android:background="@drawable/login_bk"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/loginHeader"
+            android:text="Login"
+            android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputSapId"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+
+            <EditText
+                android:id="@+id/editTextSapId"
+                style="@style/modifiedEditText"
+                android:hint="SapId"
+                android:inputType="phone"
+                android:maxLines="1" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputPassword"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                style="@style/modifiedEditText"
+                android:hint="@string/login_password_hint"
+                android:inputType="textPassword"
+                android:maxLines="1" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/cirLoginButton"
+            style="@style/loginButton"
+            android:text="Login"
+            android:layout_gravity="right"
+            android:onClick="scan"
+            android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+        <TextView
+            style="@style/parent"
+            android:textAlignment="textEnd"
+            android:textStyle="bold"
+            android:textColor="@color/primaryTextColor"
+            android:text="@string/login_signup_hint"
+            android:layout_marginTop="@dimen/loginViewsMargin"
+            android:onClick="sign_up"
+            android:gravity="end" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
