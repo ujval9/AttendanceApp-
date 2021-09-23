@@ -1,2 +1,2 @@
 # AttendanceApp-
-This is an Attendance Taking System 
+This is an Attendance Taking System which lets student and teachers to give and take attendance through the app , teachers and student can login from their own app and teacher can take attendance using a barcode system , which means that it displays a barcode on teachers mobile app and student can scan and take attendance , the barcodes changes each second so there is no method of proxy and students cant forward the barcode and the student id and mobile imei is linked with each other so only student can sacn from one phone for one id.
